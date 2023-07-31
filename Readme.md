@@ -26,7 +26,7 @@ $ git clone https://github.com/igoraugustobrz/Amazon-clone
 2. Navegue até o diretório do projeto.
 
 ```
-$ cd Portfolio
+$ cd Amazon Clone
 ```
 
 ## Contribuindo

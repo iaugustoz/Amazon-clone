@@ -20,47 +20,67 @@
 
     <header>
         <div class="grid text-white">
+
             <!-- HEADER SUPERIOR -->
-            <div class="flex flex-wrap md:flex-nowrap bg-darkblue-900 px-2 py-1 items-center">
+            <div class="top-header">
+                <!-- Ícone de menu (hamburguer) -->
                 <div class="py-1 px-2 md:border border-gray-700 hover:border-white rounded">
                     <i class="fas fa-bars text-2xl"></i>
                 </div>
-                <div class="flex mx-2 py-2 boder border-transparent hover:border-white">
+
+                <!-- Logo da Amazon -->
+                <div class="logo">
                     <img src="src/img/amazon_logo.png" alt="Amazon" class="h-7">
                     <span class="text-xs pl-1 pt-1">.com.br</span>
                 </div>
-                <div class="w-full md:w-auto flex-grow md:ml-3 mr-0 pt-1 order-2 md:order-none">
+
+                <!-- Barra de pesquisa -->
+                <div class="search-bar">
                     <form action="" class="flex">
-                        <select name="" id="" class="hidden md:block p-2 text-xs text-gray-700 bg-gray-100 hover:bg-gray-300 rounded-tl rounded-bl border-r border-gray-500">
-                            <option value="">Livros </option>
+                        <!-- Dropdown de categorias de produtos -->
+                        <select class="select">
+                            <option value="">Livros</option>
                         </select>
+                        <!-- Campo de texto para pesquisa -->
                         <input type="text" class="p-2 flex-grow rounded-l md:rounded-none">
+                        <!-- Botão de pesquisa -->
                         <button class="px-4 bg-gold-100 hover:bg-gold-200 rounded-tr rounded-br">
                             <i class="fas fa-search text-darkblue-900 text-xl mt-1"></i>
                         </button>
                     </form>
                 </div>
-                <div class="hidden md:block ml-1 pb-1 text-xs border border-transparent hover:border-white rounded-sm p-2">
+
+                <!-- Seção de login -->
+                <div class="login">
+                    <!-- Mensagem de saudação e link para contas e listas -->
                     <p class="leading-3">Olá, faça seu login</p>
                     <p class="font-extrabold">Contas e Listas <i class="fas fa-chevron-down"></i></p>
                 </div>
-                <div class="hidden md:block pb-1 text-xs border border-transparent hover:border-white rounded-sm p-2">
+
+                <!-- Links de Devoluções e Pedidos (visíveis apenas em telas maiores) -->
+                <div class="return-order-link">
                     <p class="leading-3">Devoluções</p>
                     <p class="font-extrabold">Pedidos</p>
                 </div>
-                <div class="hidden md:block pb-1 text-xs border border-transparent hover:border-white rounded-sm p-2">
+
+                <!-- Links de Experimente Prime (visíveis apenas em telas maiores) -->
+                <div class="prime-link">
                     <p class="leading-3">Experimente</p>
                     <p class="font-extrabold">Prime <i class="fas fa-chevron-down"></i></p>
                 </div>
-                <div class="p-2 border border-transparent hover:border-white rounded-sm absolute right-0 top-0 mr-2 mt-2 md:mr-0 md:mt-0 md:relative order-1 md:order-none md:flex">
+
+                <!-- Ícone do carrinho de compras com a quantidade de itens -->
+                <div class="shopping-cart">
                     <i class="fas fa-shopping-cart flex text-2xl md:mr-2"></i>
-                    <span class="font-bold text-gold-200 text-base absolute top-0 left-0 -mt-1 ml-4 text-center w-6 h-6 bg-darkblue-600 rounded-full">0</span>
+                    <span class="quantity-icon">0</span>
                     <span class="hidden md:flex text-xs font-extrabold">Carrinho</span>
                 </div>
             </div>
+
             <!-- HEADER INTERMEDIÁRIO -->
-            <div class="flex bg-darkblue-600 text-sm px-2 py-1 items-center">
-                <div class="flex items-center border border-transparent hover:border-white rounded-sm px-2 py2 md:py-0">
+            <div class="intermediary-header">
+                <!-- Seção de seleção de endereço -->
+                <div class="address-container">
                     <div class="mr-1">
                         <i class="fas fa-map-marker-alt text-xl"></i>
                     </div>
@@ -69,25 +89,27 @@
                         <p class="font-bold">Selecione o endereço</p>
                     </div>
                 </div>
+
+                <!-- Navegação de categorias (visível apenas em telas maiores) -->
                 <div class="hidden md:block">
                     <nav>
                         <ul class="flex ml-10 text-sm">
-                            <li class="mr-4 border border-transparent hover:border-white rounded-sm px-2 py-1">
+                            <li class="item-nav-mid">
                                 <a href="#">Mais vendidos</a>
                             </li>
-                            <li class="mr-4 border border-transparent hover:border-white rounded-sm px-2 py-1">
+                            <li class="item-nav-mid">
                                 <a href="#">Livros</a>
                             </li>
-                            <li class="mr-4 border border-transparent hover:border-white rounded-sm px-2 py-1">
+                            <li class="item-nav-mid">
                                 <a href="#">Ofertas do dia</a>
                             </li>
-                            <li class="mr-4 border border-transparent hover:border-white rounded-sm px-2 py-1">
+                            <li class="item-nav-mid">
                                 <a href="#">Atendimento ao Cliente</a>
                             </li>
-                            <li class="mr-4 border border-transparent hover:border-white rounded-sm px-2 py-1">
+                            <li class="item-nav-mid">
                                 <a href="#">Eletrônicos</a>
                             </li>
-                            <li class="mr-4 border border-transparent hover:border-white rounded-sm px-2 py-1">
+                            <li class="item-nav-mid">
                                 <a href="#">Ideias para Presente</a>
                             </li>
                         </ul>

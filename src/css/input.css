@@ -1,3 +1,66 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+
+    /* Header superior */
+    .top-header {
+        @apply flex flex-wrap md:flex-nowrap bg-darkblue-900 px-2 py-1 items-center;
+    }
+
+    /* Logo */
+    .logo {
+        @apply flex mx-2 py-2 border border-transparent hover:border-white;
+    }
+
+    /* Barra de pesquisa */
+    .search-bar {
+        @apply w-full md:w-auto flex-grow md:ml-3 mr-0 pt-1 order-2 md:order-none;
+    }
+
+    /* Select da barra de pesquisa */
+    .select {
+        @apply hidden md:block p-2 text-xs text-gray-700 bg-gray-100 hover:bg-gray-300 rounded-tl rounded-bl border-r border-gray-500;
+    }
+
+    /* Div do login (layout) */
+    .login {
+        @apply hidden md:block ml-1 pb-1 text-xs border border-transparent hover:border-white rounded-sm p-2;
+    }
+
+    /* Link de devolução (layout) */
+    .return-order-link {
+        @apply hidden md:block pb-1 text-xs border border-transparent hover:border-white rounded-sm p-2;
+    }
+
+    /* Link para experimentar o prime vídeo (layout) */
+    .prime-link {
+        @apply hidden md:block pb-1 text-xs border border-transparent hover:border-white rounded-sm p-2;
+    }
+
+    /* Layout do carrinho de compras */
+    .shopping-cart {
+        @apply p-2 border border-transparent hover:border-white rounded-sm absolute right-0 top-0 mr-2 mt-2 md:mr-0 md:mt-0 md:relative order-1 md:order-none md:flex;
+    }
+
+    /* Ícone que faz alusão a quantidade preseente no carrinho de compras */
+    .quantity-icon {
+        @apply font-bold text-gold-200 text-base absolute top-0 left-0 -mt-1 ml-4 text-center w-6 h-6 bg-darkblue-600 rounded-full;
+    }
+
+    /* Header intermediário */
+    .intermediary-header {
+        @apply flex bg-darkblue-600 text-sm px-2 py-1 items-center;
+    }
+
+    /* Container do endereços (header intermediário) */
+    .address-container {
+        @apply flex items-center border border-transparent hover:border-white rounded-sm px-2 py-2 md:py-0;
+    }
+
+    /* Item da navbar (header intermediário) */
+    .item-nav-mid {
+        @apply mr-4 border border-transparent hover:border-white rounded-sm px-2 py-1;
+    }
+}

@@ -533,3 +533,13 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.bg-orange-650 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(228 121 17 / var(--tw-bg-opacity));
+}
+
+.bg-darkblue-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 71 90 / var(--tw-bg-opacity));
+}

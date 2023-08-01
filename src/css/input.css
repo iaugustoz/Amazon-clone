@@ -63,4 +63,14 @@
     .item-nav-mid {
         @apply mr-4 border border-transparent hover:border-white rounded-sm px-2 py-1;
     }
+
+    /* Header inferior */
+    .bottom-header {
+        @apply flex text-black px-4 text-xs border-b border-gray-300 bg-gray-100 pt-1;
+    }
+
+    /* Item da navbar (header inferior) */
+    .item-nav-bottom {
+        @apply hover:text-orange-650 border-b-2 border-transparent hover:border-orange-650 py-1 px-3;
+    }
 }

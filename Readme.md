@@ -8,7 +8,7 @@
 Bem-vindo ao meu repositório do Clone da Amazon! Este projeto é uma ambiciosa recriação de um dos maiores e mais influentes e-commerces do mundo. Aqui, você encontrará uma replica detalhada da plataforma, projetada com dedicação e paixão para proporcionar uma experiência de usuário excepcional.
 
 ## Status do projeto
-Projeto em andamento.
+Projeto concluído.
 
 ## Pré-requisitos
 

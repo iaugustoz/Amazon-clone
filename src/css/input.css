@@ -73,4 +73,69 @@
     .item-nav-bottom {
         @apply hover:text-orange-650 border-b-2 border-transparent hover:border-orange-650 py-1 px-3;
     }
+
+    /* Navbar à esquerda no site */
+    .navbar-left {
+        @apply col-span-1 hidden md:block pl-2 my-2 border-r border-gray-300 text-xs;
+    }
+
+    /* Itens (li) da navbar à esquerda */
+    .items-navbar-left {
+        @apply text-gray-800 hover:text-orange-650;
+    }
+
+    /* Link da "seção" Loja de livros */
+    .link-book-store {
+        @apply text-blue-600 underline hover:text-orange-650 px-1 border-r border-black;
+    }
+
+    /* Botão de teste grátis */
+    .free-trial-button {
+        @apply text-sm md:text-xs bg-yellow-350 border border-yellow-700 rounded px-3 py-3 md:py-0 md:ml-6 h-12 md:h-8 block md:flex items-center w-full md:w-auto text-center;
+    }
+
+    /* Link das 'ofertas por categoria' */
+    .category-link {
+        @apply text-center mx-4 mb-4 md:mb-0
+    }
+
+    /* Container dos produtos (catálogo de produtos)*/
+    .container-products {
+        @apply flex flex-wrap border border-gray-300 divide-x divide-gray-300 mb-10;
+    }
+
+    /* Layout individual dos produtos (catálogo de produtos)*/
+    .product-layout {
+        @apply w-1/2 md:w-1/4 flex flex-col px-8 py-4 border-b border-gray-300;
+    }
+
+    /* Nome dos produtos (catálogo de produtos) */
+    .products-book-name {
+        @apply text-sm text-blue-600 hover:underline hover:text-orange-650 mb-2;
+    }
+
+    /* Link Amazon Prime (catálogo de produtos) */
+    .prime-link-products {
+        @apply text-xs text-blue-600 hover:underline hover:text-orange-650;
+    }
+
+    /* Botão saiba mais (catálogo de produtos) */
+    .button-products-learn-more {
+        @apply text-xs bg-gray-200 border border-gray-600 rounded-sm py-1;
+    }
+
+    /* Texto do li (Rodapé superior) */
+    .top-footer-text {
+        @apply mb-2 text-gray-400 hover:underline leading-4;
+    }
+
+    /* Texto do li (Rodapé intermediário) */
+    .middle-footer-countries {
+        @apply px-2 border-r border-gray-600 hover:underline;
+    }
+
+    /* (Rodapé inferior) */
+    .bottom-footer-text {
+        @apply px-2 border-none md:border-r text-center md:text-left border-gray-600 hover:underline;
+    }
 }
